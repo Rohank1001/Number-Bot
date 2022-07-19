@@ -22,7 +22,6 @@ async def on_message(message):
       import random
       Guess=0
       numb=random.randint(1,100)
-      await message.author.send(numb)
       
       while  Guess!=numb: 
         await message.author.send('Guess a number between 1 and 100')
